@@ -8,7 +8,7 @@ import time
 def generate_image(prompt, model, mode, aspect_ratio, output_format, image_path=None, strength=None):
     url = "https://api.stability.ai/v2beta/stable-image/generate/sd3"
     headers = {
-        "Authorization": "Bearer YOUR API KEY HERE",
+        "Authorization": "sk-eQuSje4pdEO6VKI4C7MsYdlTBlHsdyFjKUegDIdbMRAUvhmO",
         "Accept": "image/*"
     }
     
